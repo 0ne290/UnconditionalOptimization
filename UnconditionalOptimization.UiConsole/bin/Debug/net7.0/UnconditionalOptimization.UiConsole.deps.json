@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UnconditionalOptimization.UiConsole/1.0.0": {
+        "dependencies": {
+          "UnconditionalOptimization.Interfaces": "1.0.0",
+          "UnconditionalOptimization.Logic": "1.0.0"
+        },
+        "runtime": {
+          "UnconditionalOptimization.UiConsole.dll": {}
+        }
+      },
+      "UnconditionalOptimization.Interfaces/1.0.0": {
+        "runtime": {
+          "UnconditionalOptimization.Interfaces.dll": {}
+        }
+      },
+      "UnconditionalOptimization.Logic/1.0.0": {
+        "dependencies": {
+          "UnconditionalOptimization.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "UnconditionalOptimization.Logic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UnconditionalOptimization.UiConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnconditionalOptimization.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UnconditionalOptimization.Logic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

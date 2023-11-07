@@ -1,0 +1,15 @@
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\bin\Debug\net7.0\UnconditionalOptimization.Logic.deps.json
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\bin\Debug\net7.0\UnconditionalOptimization.Logic.dll
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\bin\Debug\net7.0\UnconditionalOptimization.Logic.pdb
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\bin\Debug\net7.0\UnconditionalOptimization.Interfaces.dll
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\bin\Debug\net7.0\UnconditionalOptimization.Interfaces.pdb
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\UnconditionalOptimization.Logic.csproj.AssemblyReference.cache
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\UnconditionalOptimization.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\UnconditionalOptimization.Logic.AssemblyInfoInputs.cache
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\UnconditionalOptimization.Logic.AssemblyInfo.cs
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\UnconditionalOptimization.Logic.csproj.CoreCompileInputs.cache
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\UnconditionalOptimization.Logic.csproj.CopyComplete
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\UnconditionalOptimization.Logic.dll
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\refint\UnconditionalOptimization.Logic.dll
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\UnconditionalOptimization.Logic.pdb
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Logic\obj\Debug\net7.0\ref\UnconditionalOptimization.Logic.dll

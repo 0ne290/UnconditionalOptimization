@@ -1,0 +1,12 @@
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\bin\Debug\net7.0\UnconditionalOptimization.Interfaces.deps.json
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\bin\Debug\net7.0\UnconditionalOptimization.Interfaces.dll
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\bin\Debug\net7.0\UnconditionalOptimization.Interfaces.pdb
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\UnconditionalOptimization.Interfaces.csproj.AssemblyReference.cache
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\UnconditionalOptimization.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\UnconditionalOptimization.Interfaces.AssemblyInfoInputs.cache
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\UnconditionalOptimization.Interfaces.AssemblyInfo.cs
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\UnconditionalOptimization.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\UnconditionalOptimization.Interfaces.dll
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\refint\UnconditionalOptimization.Interfaces.dll
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\UnconditionalOptimization.Interfaces.pdb
+C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.Interfaces\obj\Debug\net7.0\ref\UnconditionalOptimization.Interfaces.dll
