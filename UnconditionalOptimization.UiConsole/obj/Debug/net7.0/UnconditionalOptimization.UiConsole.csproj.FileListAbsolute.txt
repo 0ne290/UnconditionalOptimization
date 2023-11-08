@@ -18,3 +18,23 @@ C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.
 C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.pdb
 C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.genruntimeconfig.cache
 C:\Users\lenya\source\repos\UnconditionalOptimization\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\ref\UnconditionalOptimization.UiConsole.dll
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.UiConsole.exe
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.UiConsole.deps.json
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.UiConsole.runtimeconfig.json
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.UiConsole.dll
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.UiConsole.pdb
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.Interfaces.dll
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.Logic.dll
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.Interfaces.pdb
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\bin\Debug\net7.0\UnconditionalOptimization.Logic.pdb
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.csproj.AssemblyReference.cache
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.AssemblyInfoInputs.cache
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.AssemblyInfo.cs
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.csproj.CoreCompileInputs.cache
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.csproj.CopyComplete
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.dll
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\refint\UnconditionalOptimization.UiConsole.dll
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.pdb
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\UnconditionalOptimization.UiConsole.genruntimeconfig.cache
+C:\Users\lenya\Desktop\Методы оптимизации\ЛР1\UnconditionalOptimization\Source\UnconditionalOptimization.UiConsole\obj\Debug\net7.0\ref\UnconditionalOptimization.UiConsole.dll

@@ -24,10 +24,12 @@ public class MultiDimensionalSearch
 		Dimension = 2;
     }
 
-    public ResultOfFunctionMinimizationByPowellsConjugateDirectionsMethod FunctionMinimizationByPowellsConjugateDirectionsMethod(double[] startingPoint, double accuracyByArgument, double accuracyByFunction)
+    public ResultOfFunctionMinimizationByPowellsConjugateDirectionsMethod FunctionMinimizationByPowellsConjugateDirectionsMethod(double[] startingPoint, double accuracyByArgument, double accuracyByFunction, double increment, double incrementReductionFactor)
     {
 		if (startingPoint.Length != Dimension)
 			throw new Exception($"The number of coordinates of the starting point must be {Dimension}.");
+        if (!(incrementReductionFactor > 0 && incrementReductionFactor < 1))
+            throw new Exception("The increment reduction factor must be greater than zero and less than one.");
 		
         ClosedArray<double[]> conjugateDirectionVectors = new ClosedArray<double[]>(new double[Dimension + 1][]);
         ClosedArray<IPointXArgument> points = new ClosedArray<IPointXArgument>(new IPointXArgument[Dimension + 1]);
@@ -45,17 +47,25 @@ public class MultiDimensionalSearch
         ResultOfFunctionMinimizationByPowellsConjugateDirectionsMethod result = new ResultOfFunctionMinimizationByPowellsConjugateDirectionsMethod();
         double coefficient;
 
-        Ui.AddARowToTheTable(new[] { "i", "x", "d", "xmin", "f(xmin)" });
+        Ui.AddARowToTheTable(new[] { "i", "x", "d", "xmin", "f(xmin)", "error(x)", "error(y)" });
 
         points[Dimension].X = startingPoint;
         int i;
         for (i = 0; true; i++)
         {
             oneDimensionalSearch.ObjectiveFunction = GenerateFunctionForOneDimensionalSearch(conjugateDirectionVectors[i], points[i - 1]);
-            coefficient = oneDimensionalSearch.FunctionMinimizationByPowellsMethod(0, 0.2, 0.1, 0.1).MinimumPoint.X;
+            coefficient = oneDimensionalSearch.FunctionMinimizationByPowellsMethod(startingPoint[0], increment, accuracyByArgument, accuracyByFunction).MinimumPoint.X;
+            increment *= incrementReductionFactor;
             points[i] = VectorSum(points[i - 1], NumberMultipliedByvector(coefficient, conjugateDirectionVectors[i]));
 
-            Ui.AddARowToTheTable(new[] { i.ToString(), points[i - 1].ToString(), ArrayOfDoubleToString(conjugateDirectionVectors[i]), points[i].ToString(), Math.Round(points[i].Y, 5).ToString() });
+            Ui.AddARowToTheTable(new[]
+            {
+                i.ToString(), points[i - 1].ToString(),
+                ArrayOfDoubleToString(conjugateDirectionVectors[i]),
+                points[i].ToString(), Math.Round(points[i].Y, 5).ToString(),
+                Math.Round(CalculateVectorLength(VectorSub(points[i], points[i - 1])), 5).ToString(),
+                Math.Round(Math.Abs(points[i].Y - points[i - 1].Y), 5).ToString()
+            });
 
             if (AccuracyAchieved(points[i], points[i - 1], accuracyByArgument, accuracyByFunction))
                 break;
@@ -115,7 +125,8 @@ public class MultiDimensionalSearch
         return result;
     }
 
-    public bool AccuracyAchieved(IPointXArgument point2, IPointXArgument point1, double accuracyByArgument, double accuracyByFunction) => CalculateVectorLength(VectorSub(point2, point1)) < accuracyByArgument && Math.Abs(point2.Y - point1.Y) < accuracyByFunction;
+    public bool AccuracyAchieved(IPointXArgument point2, IPointXArgument point1, double accuracyByArgument, double accuracyByFunction) =>
+        CalculateVectorLength(VectorSub(point2, point1)) < accuracyByArgument && Math.Abs(point2.Y - point1.Y) < accuracyByFunction;
 
     public double CalculateVectorLength(double[] vector)
     {

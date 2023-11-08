@@ -58,10 +58,14 @@ namespace UnconditionalOptimization.UiConsole
             double accuracyByArgument = Convert.ToDouble(Console.ReadLine());
             Console.Write("Введите значение точности по функции: ");
             double accuracyByFunction = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите значение приращения для алгоритма одномерного поиска: ");
+            double increment = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Введите значение коэффициента уменьшения приращения: ");
+            double incrementReductionFactor = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine();
             var result =
-                multiDimensionalSearch.FunctionMinimizationByPowellsConjugateDirectionsMethod(new double[] { startingPointX1, startingPointX2 }, accuracyByArgument, accuracyByFunction);
+                multiDimensionalSearch.FunctionMinimizationByPowellsConjugateDirectionsMethod(new double[] { startingPointX1, startingPointX2 }, accuracyByArgument, accuracyByFunction, increment, incrementReductionFactor);
 
             Console.WriteLine();
             Console.WriteLine($"За {result.NumberOfIterations} итераций минимизации ЦФ методом сопряженных направлений Пауэлла была найдена точка оптимума ({result.MinimumPoint[0]}; {result.MinimumPoint[1]}) (значение ЦФ в точке равно {result.MinimumPoint.Y}). Кол-во вычислений ЦФ за все время выполнения алгоритма при выше написанном кол-ве итераций равно {result.NumberOfObjectiveFunctionCalculations}");
